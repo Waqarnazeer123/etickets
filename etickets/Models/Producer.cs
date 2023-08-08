@@ -1,0 +1,17 @@
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.ComponentModel.DataAnnotations;
+
+namespace etickets.Models
+{
+    public class Producer
+    {
+
+        [Key]
+    public int Id { get; set; }
+    public string ProfilePictureURL { get; set; }
+    public string FullName { get; set; }
+
+    public string Bio { get; set; }
+
+}
+}
